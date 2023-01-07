@@ -28,13 +28,17 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  overflow: hidden;
   min-height: 100vh;
+  background-image: url(./img/bg.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: #fff;
 }
 
 button {
@@ -47,9 +51,11 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  box-shadow: 1px 2px 15px #d485ff;
 }
 button:hover {
-  border-color: #646cff;
+  background-color: #c964ff;
+  transition: 300ms;
 }
 button:focus,
 button:focus-visible {

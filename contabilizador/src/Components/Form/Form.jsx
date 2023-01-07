@@ -1,30 +1,16 @@
-function Form() {
+
+
+function Form({name}) {
     
     return (
-        <>
-            <form action="" className="linguagens">
-                <label htmlFor="html" className="html">
-                    <input type="checkbox" name="Hmtl" id="html" />
-                    HTML
-                </label>
+        <div className="content-form">
+            <h1>O que você vai estudar hoje, {name}?</h1>
+            
 
-                <label htmlFor="css" className="css">
-                    <input type="checkbox" name="CSS" id="css" />
-                    CSS
-                </label>
+            <input type="text" name="matéria" id="materia" placeholder="Digite o nome da matéria aqui" />
 
-                <label htmlFor="javascript" className="javascript">
-                    <input type="checkbox" name="JavaScript" id="javascript"/>
-                    Javascript
-                </label>
-
-                <label htmlFor="react" className="react">
-                    <input type="checkbox" name="React" id="react" />
-                    React
-                </label>
-
-            </form>
-        </>
+        
+        </div>
     )
 }
 

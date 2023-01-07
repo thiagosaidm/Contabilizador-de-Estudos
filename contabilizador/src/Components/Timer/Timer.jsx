@@ -24,13 +24,17 @@ function Timer() {
         {hours.toString().padStart(2, '0')}:
         {minutes.toString().padStart(2, '0')}:
         {secs.toString().padStart(2, '0')}
+        <div className="buttons">
+        {isRunning ? (
+          <button onClick={() => setIsRunning(false)}>Finalizar</button>
+        ) : (
+          <button onClick={() => setIsRunning(true)}>Iniciar</button>
+        )}
       </div>
-      {isRunning ? (
-        <button onClick={() => setIsRunning(false)}>Finalizar</button>
-      ) : (
-        <button onClick={() => setIsRunning(true)}>Iniciar</button>
-      )}
+      </div>
+   
     </div>
+
   );
 }
 

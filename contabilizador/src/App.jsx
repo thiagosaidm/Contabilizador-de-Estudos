@@ -9,7 +9,8 @@ function App() {
   return (
     <div className="App">
       <>
-        <Form/>
+
+        <Form name={`Thiago`}/>
         <Timer />
       </>
     </div>
