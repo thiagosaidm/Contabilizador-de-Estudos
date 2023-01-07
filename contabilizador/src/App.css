@@ -1,0 +1,69 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+.linguagens{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: center;
+  width: 100%;
+  margin: auto 2em;
+  border: 2px solid #888;
+  background-color: #2e2d2d;
+  border-radius: 20px;
+  padding: .8em;
+}
+
+label{
+  color: #adacac
+}
+
+.timer{
+  
+  width: 100%;
+  height: 100%;
+  background-color: #2e2d2d;
+  color: #888;
+  border-radius: 50%;
+  padding: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
