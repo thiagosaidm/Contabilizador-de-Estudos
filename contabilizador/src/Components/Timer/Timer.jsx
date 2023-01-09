@@ -1,6 +1,11 @@
+
 import React, { useState, useEffect } from 'react';
 
-function Timer() {
+import Saudacao from '../Saudacao/Saudacao';
+import Assunto from '../Assunto/Assunto';
+
+
+function Timer({nome, assunto}) {
   const [seconds, setSeconds] = useState(0);
   const [isRunning, setIsRunning] = useState(false);
 
@@ -21,6 +26,8 @@ function Timer() {
   return (
     <div className='content'>
       <div className="timer">
+        <Saudacao nome = {nome}/>
+        <Assunto assunto={assunto} />
         {hours.toString().padStart(2, '0')}:
         {minutes.toString().padStart(2, '0')}:
         {secs.toString().padStart(2, '0')}

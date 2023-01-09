@@ -1,18 +1,30 @@
+//components
+
+import Home from './Components/Home/Home'
 import { useState } from 'react'
-import './App.css'
-import Form from './Components/Form/Form'
 import Timer from './Components/Timer/Timer'
 
+
+import './App.css'
+import Form from './Components/Form/Form'
+import Saudacao from './Components/Saudacao/Saudacao'
+
+
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [nome, setNome] = useState('')
+  const[assunto, setAssunto] = useState('')
+
 
   return (
     <div className="App">
-      <>
+      
 
-        <Form name={`Thiago`}/>
-        <Timer />
-      </>
+        <Home />
+        <Form  setNome={setNome} setAssunto={setAssunto}/>
+        <Timer  nome = {nome} assunto= {assunto}/>
+       
+      
     </div>
   )
 }

@@ -13,6 +13,8 @@
 }
 
 .content-form {
+  width: 450px;
+  max-height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,8 +34,16 @@
 
 .content-form input{
   padding: .3em;
-  width: 50%;
+  width: 20%;
+  
+  background-color: #fffdfd5b;
+
+
   text-align: center;
+  color: #fffdfd;
+  font-weight: bold;
+
+  border-radius: 5px;
 }
 
 .content {
