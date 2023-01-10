@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function Form({setNome, setAssunto}) {
     return(
-        <div>
+        <div className="form">
             <h3>Digite o seu nome e o que você vai estudar: 📚📖</h3>  
 
          

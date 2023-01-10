@@ -7,9 +7,9 @@ function Home() {
                     Olá, vamos estudar?👨🏾‍🏫 
                 </h1>
 
-                <p>Essa é uma ferramenta simples para cronometrar seus estudos <br/> e acompanhar seu progresso</p>
+                <p>Essa é uma ferramenta simples para cronometrar seus estudos e acompanhar seu progresso</p>
 
-                <h2>Para começarmos, clique no botão abaixo 👇🏾</h2>
+                <h2>Para começarmos, clique no botão abaixo</h2>
 
                 <button>OK</button>
 
