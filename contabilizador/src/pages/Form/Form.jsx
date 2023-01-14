@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
-
+import styles from './Form.module.css'
 
 function Form({setNome, setAssunto}) {
     return(
-        <div className="form">
-            <h3>Digite o seu nome e o que você vai estudar: 📚📖</h3>  
+        <div className={styles.form}>
+            <h1>Deixa eu saber... 📚</h1>
+            <h2>O seu nome e o que você vai estudar agora: </h2>  
 
          
         
@@ -14,7 +15,7 @@ function Form({setNome, setAssunto}) {
             <input type="text" name="assunto" placeholder="Pode ser qualquer assunto, viu?!" 
             onChange={(e)=> setAssunto(e.target.value)} />
 
-            <Link to='/timer'><button>OK</button></Link>
+            <Link to='/timer'><button>Avançar</button></Link>
         </div>
     )
 }

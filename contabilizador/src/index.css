@@ -30,20 +30,17 @@ body {
   place-items: center;
   overflow: hidden;
   min-height: 100vh;
-  background-color: #535bf2;
+  background-color: #6D67E4;
  /* background-image: url(./img/bg.gif); */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-  color: #fff;
-}
+
 
 button {
   border-radius: 8px;
+  margin-top: 1em;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;

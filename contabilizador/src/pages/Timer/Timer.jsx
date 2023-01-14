@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 
+import styles from './Timer.module.css'
+
 import Saudacao from "../../Components/Saudacao/Saudacao";
 import Assunto from "../../Components/Assunto/Assunto";
 
@@ -22,11 +24,11 @@ function Timer({ nome, assunto }) {
   }, [isRunning]);
 
   return (
-    <div className="content">
-      <div className="timer">
+    <div className={styles.timer}>
+      <div className={styles.contentTimer}>
         <Saudacao nome={nome} />
         <Assunto assunto={assunto} />
-        <div className="clock">
+        <div className={styles.clock}>
           {hours.toString().padStart(2, "0")}:
           {minutes.toString().padStart(2, "0")}:
           {secs.toString().padStart(2, "0")}

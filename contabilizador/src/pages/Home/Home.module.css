@@ -1,0 +1,30 @@
+.homeContainer {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 3em;
+  
+  }
+  
+  h1{
+    color: #f3feff;
+    text-align: center;
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+
+  
+  
+
+span{
+    font-size: 3em;
+}
+
+p{
+    font-size: 18pt;
+}
+
+  h2{
+    
+    color: #fffdfd;
+  }
