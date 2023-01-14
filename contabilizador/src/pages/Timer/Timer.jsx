@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
 
-import Saudacao from '../Saudacao/Saudacao';
-import Assunto from '../Assunto/Assunto';
+import Saudacao from '../../Components/Saudacao/Saudacao';
+import Assunto from '../../Components/Assunto/Assunto';
 
 
 function Timer({nome, assunto}) {

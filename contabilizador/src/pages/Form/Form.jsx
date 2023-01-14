@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Link } from "react-router-dom";
 
 
 function Form({setNome, setAssunto}) {
@@ -13,6 +13,8 @@ function Form({setNome, setAssunto}) {
 
             <input type="text" name="assunto" placeholder="Pode ser qualquer assunto, viu?!" 
             onChange={(e)=> setAssunto(e.target.value)} />
+
+            <Link to='/timer'><button>OK</button></Link>
         </div>
     )
 }

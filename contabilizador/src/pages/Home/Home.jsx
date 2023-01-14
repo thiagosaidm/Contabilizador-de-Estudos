@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 
 function Home() {
     
@@ -11,7 +13,7 @@ function Home() {
 
                 <h2>Para começarmos, clique no botão abaixo</h2>
 
-                <button>OK</button>
+                <Link to='/form'><button>OK</button></Link>
 
         </div>
     )

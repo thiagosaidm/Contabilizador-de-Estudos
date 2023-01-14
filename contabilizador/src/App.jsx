@@ -1,13 +1,16 @@
 //components
 
-import Home from './Components/Home/Home'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+
+
+import Home from './pages/Home/Home'
 import { useState } from 'react'
-import Timer from './Components/Timer/Timer'
+import Timer from './pages/Timer/Timer'
 
 
 import './App.css'
-import Form from './Components/Form/Form'
-import Saudacao from './Components/Saudacao/Saudacao'
+import Form from './pages/Form/Form'
+
 
 
 function App() {
@@ -17,15 +20,17 @@ function App() {
 
 
   return (
-    <div className="App">
-      
+    <Router>
+      <Routes>
+      <Route path='/' element={<Home/>}/>
+        <Route path='/form'  element={<Form  setNome={setNome} setAssunto={setAssunto}/>}/>
+        <Route path='/timer' element={<Timer  nome = {nome} assunto= {assunto}/>}/>
+      </Routes>
 
-        <Home />
-        <Form  setNome={setNome} setAssunto={setAssunto}/>
-        <Timer  nome = {nome} assunto= {assunto}/>
+      
        
       
-    </div>
+    </Router>
   )
 }
 
