@@ -7,7 +7,7 @@ function Assunto({assunto}) {
 
     return(
         <>
-        <h4>{gerarAssunto(assunto)}</h4>
+        <h3>{gerarAssunto(assunto)}</h3>
         </>
     )
 }

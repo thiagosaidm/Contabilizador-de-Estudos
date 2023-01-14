@@ -83,7 +83,7 @@
 
 .timer {
 
-  max-width: 5em;
+  max-width: 25em;
   height: auto;
   background-image: linear-gradient(45deg, rgba(66, 66, 230, 0.623), rgba(255, 0, 0, 0.238));
   color: rgb(243, 240, 240);
@@ -106,7 +106,10 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-
+.clock{
+  padding: .2em;
+  font-size: 2em;
+}
 
 .buttons {
   margin-top: 1em;

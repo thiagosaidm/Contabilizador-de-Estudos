@@ -6,7 +6,7 @@ function Saudacao({nome}) {
 
     return(
         <>
-        {nome.length > 0 ? (<h3>{saudarUser(nome)}</h3>):(<h3>Olá, pequeno(a) gafanhoto!</h3>)}
+        {nome.length > 0 ? (<h2>{saudarUser(nome)}</h2>):(<h2>Olá, pequeno(a) gafanhoto!</h2>)}
         
         </>
     )
