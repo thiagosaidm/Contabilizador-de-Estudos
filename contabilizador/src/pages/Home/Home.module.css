@@ -3,11 +3,13 @@
     margin: auto;
     text-align: center;
     padding: 3em;
+    text-shadow: 1px 2px 3px #3d3c3c;
+    color: #f3feff;
   
   }
   
   h1{
-    color: #f3feff;
+   
     text-align: center;
     font-size: 3.2em;
     line-height: 1.1;

@@ -4,8 +4,8 @@ import styles from './Form.module.css'
 function Form({setNome, setAssunto}) {
     return(
         <div className={styles.form}>
-            <h1>Deixa eu saber... 📚</h1>
-            <h2>O seu nome e o que você vai estudar agora: </h2>  
+            <h2>Deixa eu saber... 📚</h2>
+            <h3>O seu nome e o que você vai estudar agora: </h3>  
 
          
         

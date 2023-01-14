@@ -2,28 +2,43 @@
   .form{
   
     display: flex;
+    font-size: 15pt;
     flex-direction: column;
     justify-content: center;
     min-height: 15em;
     padding: 2em;
     margin: auto;
     text-align: center;
+    background-color: #b9bbbe79;
+    color: #f3feff;
+    text-shadow: 1px 2px 3px #3d3c3c;
   
 }
 
 
 input{
-    margin: .4em auto;
-    padding: .4em;
+    margin: .1em auto;
+    padding: .5em;
     width: 80%;
-    background-color: #fffdfd5b;
+    background-color: #29272b34;
     text-align: center;
     color: #f6fff9;
-    border-radius: 5px;
+    
+    border-radius: 2px;
+    border: none;
+    border-bottom:3px solid rgb(255, 255, 255);
+
+    font-size: 1em;
+
+    font-weight: bold;
   }
 
-h1{
+  input::placeholder{
     color: #f3feff;
-   
+  }
+
+textarea:focus, input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
 }
 

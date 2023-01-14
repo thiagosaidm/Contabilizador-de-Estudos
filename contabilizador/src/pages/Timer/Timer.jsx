@@ -24,15 +24,16 @@ function Timer({ nome, assunto }) {
   }, [isRunning]);
 
   return (
+    
     <div className={styles.timer}>
       <div className={styles.contentTimer}>
         <Saudacao nome={nome} />
         <Assunto assunto={assunto} />
-        <div className={styles.clock}>
+        <h1 className={styles.clock}>
           {hours.toString().padStart(2, "0")}:
           {minutes.toString().padStart(2, "0")}:
           {secs.toString().padStart(2, "0")}
-        </div>
+        </h1>
 
         <div className="buttons">
           {isRunning ? (
