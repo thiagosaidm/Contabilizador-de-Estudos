@@ -1,4 +1,4 @@
-# Contabilizador de Estudos ⏱
+# Cronômetro de Estudos ⏱
 
 ### Tecnologias Usadas:
 
