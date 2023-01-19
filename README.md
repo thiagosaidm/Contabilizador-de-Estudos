@@ -2,6 +2,11 @@
 Cronômetro de Estudos
 Este é um projeto desenvolvido com o objetivo de ajudar a acompanhar o tempo gasto estudando. 
 
+<p align="center">
+    <img src="https://media.licdn.com/dms/image/C4D22AQG_0EO9yK_2Xw/feedshare-shrink_800/0/1674089125059?e=1677110400&v=beta&t=_d9WGWVp8chzHBjwBcgI_36DkMk-nOcT_yjcC4k1pNA" alt="Gif da página do projeto">
+
+</p>
+
 ## Ele foi construído utilizando as seguintes tecnologias:
 
 * React
